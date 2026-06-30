@@ -374,7 +374,7 @@ elif prediction_type == "Kidney Disease":
             st.info("Please check all fields are filled correctly.")
 
 
-# Data visualization section
+# Data visualization section visuallly
 if heart_data is not None and kidney_data is not None:
     st.markdown("---")
     st.markdown('<h2 class="sub-header">📊 Dataset Visualizations</h2>', unsafe_allow_html=True)
@@ -415,7 +415,7 @@ if heart_data is not None and kidney_data is not None:
             fig_class.update_layout(height=400)
             st.plotly_chart(fig_class, use_container_width=True)
 
-# Footer
+# Footer foter
 st.markdown("---")
 st.markdown("""
 <div style="text-align: center; color: #7f8c8d; padding: 2rem;">
